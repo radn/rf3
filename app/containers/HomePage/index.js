@@ -77,7 +77,7 @@ export function HomePage({
             interface standards with our digital design system. The design
             system includes the code and assets you need to add reusable,
             standardized components to application interfaces using HTML, CSS
-            and JavaScript files. Based on the Bootstrap 4.3.1 Web development
+            and JavaScript files. Based on reactjs and a modern front-end 
             framework , the design system is intended to make NHLBI applications
             easier to design, build, use, and maintain. Interface components and
             downloadable CSS and JavaScript files are available through the

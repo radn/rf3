@@ -67,33 +67,24 @@ export function HomePage({
         />
       </Helmet>
       <div>
-        <CenteredSection>
-          <H2>
-            <FormattedMessage {...messages.startProjectHeader} />
-          </H2>
-          <p>
-            <FormattedMessage {...messages.startProjectMessage} />
-          </p>
-        </CenteredSection>
+        <CenteredSection />
+
         <Section>
-          <H2>
-            <FormattedMessage {...messages.trymeHeader} />
-          </H2>
-          <Form onSubmit={onSubmitForm}>
-            <label htmlFor="username">
-              <FormattedMessage {...messages.trymeMessage} />
-              <AtPrefix>
-                <FormattedMessage {...messages.trymeAtPrefix} />
-              </AtPrefix>
-              <Input
-                id="username"
-                type="text"
-                placeholder="mxstbr"
-                value={username}
-                onChange={onChangeUsername}
-              />
-            </label>
-          </Form>
+          <H2>Get started with the NHLBI Digital Design System</H2>
+
+          <p>
+            Build accessible web-based applications that conform to NHLBI user
+            interface standards with our digital design system. The design
+            system includes the code and assets you need to add reusable,
+            standardized components to application interfaces using HTML, CSS
+            and JavaScript files. Based on the Bootstrap 4.3.1 Web development
+            framework , the design system is intended to make NHLBI applications
+            easier to design, build, use, and maintain. Interface components and
+            downloadable CSS and JavaScript files are available through the
+            design system menu at the top of this screen. Can’t find a component
+            you need? Send an email message to let us know.
+          </p>
+
           <ReposList {...reposListProps} />
         </Section>
       </div>

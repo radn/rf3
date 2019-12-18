@@ -13,6 +13,11 @@ import { Switch, Route } from 'react-router-dom';
 
 import HomePage from 'containers/HomePage/Loadable';
 import FeaturePage from 'containers/FeaturePage/Loadable';
+
+import Buttons from 'containers/Buttons/Loadable';
+import Panels from 'containers/Panels/Loadable';
+import Datatable from 'containers/Datatable/Loadable';
+
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
@@ -40,10 +45,12 @@ export default function App() {
       <Header />
       <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/features" component={FeaturePage} />
+        <Route path="/Buttons" component={Buttons} />
+        <Route path="/Panels" component={Panels} />
+        <Route path="/Datatable" component={Datatable} />
+
         <Route path="" component={NotFoundPage} />
       </Switch>
-      <Footer />
       <GlobalStyle />
     </AppWrapper>
   );

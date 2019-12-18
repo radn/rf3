@@ -12,8 +12,20 @@ export default defineMessages({
     id: `${scope}.home`,
     defaultMessage: 'Home',
   },
-  features: {
-    id: `${scope}.features`,
-    defaultMessage: 'Features',
+  datatable: {
+    id: `${scope}.datatable`,
+    defaultMessage: 'Datatable',
+  },
+  panels: {
+    id: `${scope}.panels`,
+    defaultMessage: 'Panels',
+  },
+  buttons: {
+    id: `${scope}.buttons`,
+    defaultMessage: 'Buttons',
+  },
+  notFound: {
+    id: `${scope}.notFound`,
+    defaultMessage: 'notFound',
   },
 });

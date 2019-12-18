@@ -4,3 +4,7 @@
 ul li {
     list-style-type: none;
 }
+
+.NavBar-sc-3b48xb-0 a:last-child {
+    display: none;
+}

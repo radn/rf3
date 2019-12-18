@@ -16,6 +16,7 @@ import List from './List';
 import ListItem from './ListItem';
 import ListItemTitle from './ListItemTitle';
 
+
 export default function FeaturePage() {
   return (
     <div>
@@ -23,7 +24,7 @@ export default function FeaturePage() {
         <title>Datatable Page</title>
         <meta
           name="description"
-          content="Feature page of React.js Boilerplate application"
+          content="datatable page of React.js Boilerplate application"
         />
       </Helmet>
       <H1 />
@@ -32,40 +33,44 @@ export default function FeaturePage() {
           <ListItemTitle>
             <H2>Datatable</H2>
           </ListItemTitle>
-          <p>
-            <a href="about.html" className="button">
-              Learn More
-            </a>
-            <a href="#features" className="button">
-              View All Features
-            </a>
+          
 
-            <button type="button" className="success button">
-              Save
-            </button>
-            <button type="button" className="alert button">
-              Delete
-            </button>
-          </p>
+                                
+<table type="button" 
+className="table table-striped table-bordered dataTable" 
+role="grid" 
+aria-label="example_info">
+<thead>
+<tr>
+<th scope="col">#</th>
+<th scope="col">First</th>
+<th scope="col">Last</th>
+<th scope="col">Handle</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row">1</th>
+<td>Mark</td>
+<td>Otto</td>
+<td>@mdo</td>
+</tr>
+<tr>
+<th scope="row">2</th>
+<td>Jacob</td>
+<td>Thornton</td>
+<td>@fat</td>
+</tr>
+<tr>
+<th scope="row">3</th>
+<td>Larry</td>
+<td>the Bird</td>
+<td>@twitter</td>
+</tr>
+</tbody>
+</table>
+                                 
 
-          <a className="button tiny" href="#">
-            So Tiny
-          </a>
-          <a className="button small" href="#">
-            So Small
-          </a>
-          <a className="button" href="#">
-            So Basic
-          </a>
-          <a className="button large" href="#">
-            So Large
-          </a>
-          <a className="button expanded" href="#">
-            Such Expand
-          </a>
-          <a className="button small expanded" href="#">
-            Wow, Small Expand
-          </a>
         </ListItem>
       </List>
     </div>

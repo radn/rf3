@@ -32,7 +32,7 @@ export default function FeaturePage() {
           <ListItemTitle>
             <H2>Panels</H2>
           </ListItemTitle>
-          <p>
+          
             <div className="card">
               <div className="card-divider">
               This is a header
@@ -43,8 +43,7 @@ export default function FeaturePage() {
                 <p>It has an easy to override visual style, and is appropriately subdued.</p>
               </div>
               </div>
-            </div>
-          </p>
+          
         </ListItem>
       </List>
     </div>
